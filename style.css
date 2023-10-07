@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 245, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#whitebox{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    
+}
+
+#perf{
+    width: 22rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#header{
+    padding-left: 30px;
+    padding-top: 20px;;
+    font-size: 15px;
+}
+
+#header2{
+    padding-left:30px;
+    padding-right:60px;
+    padding-top: 20px;
+    font-family: playfair, serif;
+
+    font-size: 40px;
+}
+#paragraph{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 20px;
+    color: gray !important;
+}
+
+#price{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top: 20px;
+    font-size: 35px;
+    font-family: playfair;
+    color: rgb(40, 133, 40);
+}
+
+#butonid{
+    padding-left:30px;
+    padding-right:10px;
+    padding-top: 40px;
+}
+
+button{
+    padding: 20px 130px 20px 110px;
+    border-radius: 20px;
+    background-color: rgb(87 141 89);
+    border: none;
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    font-family: satoshi;
+}
+
+#komprice{
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+button:hover{
+    background-color: rgb(29, 133, 33);
+}
+
+
+@media (max-width: 768px){
+
+
+    #whitebox{
+        width: 90%;
+        height: 80%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #perf{
+        width: 100%;
+        height : 50%;
+        border-radius: 20px;
+    }
+
+    #header, #header2, #paragraph, #price, #komprice, #butonid {
+        padding: 5px; /* Adjust spacing for mobile */
+        text-align: left; /* Center text */
+    }
+
+}
